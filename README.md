@@ -19,10 +19,12 @@ Automated DFT calculations using VASP for materials science applications:
 
 ### 🤖 Machine Learning (`Machine_Learning/`)
 Advanced ML models for materials property prediction:
-- **Oxide_Formation_Energy_Prediction.py**: Gaussian Process Regression for oxide formation energy prediction (1,220 lines)
+- **Oxide_Formation_Energy_Prediction_GPR.py**: Gaussian Process Regression for oxide formation energy prediction (1,220 lines)
+- **Alloy_Formation_Energy_Prediction_CNN.py**: Convolutional Neural Network for alloy formation energy prediction
 - **Oxide_Formation_Energy_Linear_Regression.py**: Linear regression models with feature selection
 - **Oxide_Coordination_Classification.py**: Classification of oxide coordination environments
 - **Feature_Importance_Forward_Selection.py**: Feature selection algorithms
+- **Feature_Importance_Drop_Column**: Drop-column feature importance analysis
 - **Data_Parsing_*.py**: Data preprocessing scripts for bulk/slab structures and Mendeleev properties
 - **Data_Plotter.py**: Visualization tools for ML results
 
