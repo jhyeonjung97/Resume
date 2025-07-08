@@ -106,6 +106,23 @@ The tools and methods developed here have applications in:
 - **Electrochemical Systems**: Fuel cells, electrolyzers, and energy conversion devices
 - **Materials Informatics**: Data-driven approaches to materials science
 
+## ⚠️ Important Notes
+
+### Data Accessibility
+- **Private Data**: Many scripts contain references to private datasets that are not publicly available
+- **Local Paths**: Most files use hardcoded local file paths specific to the development environment
+- **Dependencies**: Scripts may require specific data formats, file structures, or external datasets
+
+### Standalone Execution
+- **Not Self-Contained**: Most scripts are not designed to run independently without proper data setup
+- **Environment Specific**: File paths, data sources, and configurations are specific to the original development environment
+- **Data Requirements**: Scripts expect specific data formats and directory structures that may not be available
+
+### Usage Guidelines
+- **Reference Implementation**: These scripts serve as reference implementations and code examples
+- **Adaptation Required**: Users should adapt file paths, data sources, and configurations for their specific environments
+- **Data Preparation**: Ensure proper data formatting and directory structure before execution
+
 ---
 
 *This portfolio represents a comprehensive collection of computational materials science tools and methodologies, showcasing expertise in both fundamental computational chemistry and modern data science approaches to materials research.*
